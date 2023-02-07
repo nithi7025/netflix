@@ -22,8 +22,7 @@ const Banner = () => {
                     <button className='button'>Play</button>
                     <button className='button'>My list</button>
                 </div>
-                <h1 className='descryption'>The lorem ipsum is based on De finibus bonorum et malorum, 
-                a Latin text written by Cicero in 45 BC.</h1>
+                <h1 className='descryption'>{movie ? movie.overview : ""}</h1>
             </div>
 <div className="fade"></div>
         </div>
